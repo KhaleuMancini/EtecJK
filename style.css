@@ -22,10 +22,17 @@ nav{
 }
 
 #nsa{
-    border: 0;
-    background-color: #f79120;
+    border: solid 2px #256686;
+    border-radius: 5%;
+    color: #256686;
+    background-color: transparent;
     font-size: 12px;
+    font-weight: bold;
     padding: 0.7% 2%;
+}
+#nsa:hover{
+    background-color: #256686;
+    color: #f79120;
 }
 
 a:hover{
