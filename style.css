@@ -1,0 +1,149 @@
+body{
+    font-size: 14px;
+}
+header{
+    background-color: #f79320;
+}
+.barrinha{
+    height: 10px;
+    background-color: #dd8520;
+}
+.logo{
+    width: 240px;
+    padding: 8px;
+    margin-right: 10%;
+}
+nav{
+    align-items: center;
+}
+.nav-link{
+    color: #1a252b;
+    font-weight: bolder;
+}
+
+#nsa{
+    border: 0;
+    background-color: #f79120;
+    font-size: 12px;
+    padding: 0.7% 2%;
+}
+
+a:hover{
+    color: #256686;
+}
+
+.menuCur, .menuEM{
+    margin-top: 0px;
+    border: 0;
+    border-radius: 0;
+    padding: 10px;
+    margin-left: 32.7%;
+    font-size: 12px;
+    background-color: #f79320bb;
+}
+
+.menuEM{
+    margin-left: 41.48%;
+}
+.dropdown-item:hover{
+    color: #256686;
+    background-color: transparent;
+}
+
+.carro{
+    width: 100%;
+    background-image: url(imagens/etezEstrutura.png);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.carro h3, .carro p, .carro h2{
+    padding: 19%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    font-size: 16px;
+    color: #f79120;
+    font-weight: bolder;
+}
+
+hr{
+    color: #f79120;
+    border: solid 2px #f79120;
+    width: 2%;
+}
+
+.carro p, .carro h2{
+    padding: 0.5%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    color: rgb(233, 233, 233);
+}
+
+.vestib{
+    border: solid 2px #f79120;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.4% 2%;
+    color: #f79120;
+    display: block;
+    margin: auto;
+}
+.vestib:hover{
+    background-color: #f79120;
+    color:#1a252b
+}
+
+.RECENTES h3{
+    color: black;
+    text-align: left;
+}
+.RECENTES{
+    margin: auto;
+    padding: 2% 8%;
+}
+.RECENTES h4{
+    color: black;
+    text-align: left;
+    padding: 2% 0%;
+}
+.RECENTES h4:hover{
+    color: #dd8520;
+    cursor: pointer;
+}
+.container1{
+    justify-content: space-around;
+}
+
+.recente{
+    width: 45%;
+    margin: 2%;
+}
+.artig{
+    margin: 2%;
+    width: 25%;
+}
+.artig h6{
+    padding-top: 10px;
+}
+.artig a{
+    display: block;
+    color: black;
+    text-decoration-style: none;
+    padding-bottom: 2%;
+}
+button:hover{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 10px;
+    align-items: center;
+    background-color: rgb(247, 147, 32);
+}
