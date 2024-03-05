@@ -1,156 +1,101 @@
-body{
-    font-size: 14px;
-}
-header{
-    background-color: #f79320;
-}
-.barrinha{
-    height: 10px;
-    background-color: #dd8520;
-}
-.logo{
-    width: 240px;
-    padding: 8px;
-    margin-right: 10%;
-}
-nav{
-    align-items: center;
-}
-.nav-link{
-    color: #1a252b;
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #09010d;
     font-weight: bolder;
-}
-
-#nsa{
-    border: solid 2px #256686;
-    border-radius: 5%;
-    color: #256686;
-    background-color: transparent;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 0.7% 2%;
-}
-#nsa:hover{
-    background-color: #256686;
-    color: #f79120;
-}
-
-a:hover{
-    color: #256686;
-}
-
-.menuCur, .menuEM{
-    margin-top: 0px;
-    border: 0;
-    border-radius: 0;
-    padding: 10px;
-    margin-left: 32.7%;
-    font-size: 12px;
-    background-color: #f79320bb;
-}
-
-.menuEM{
-    margin-left: 41.48%;
-}
-.dropdown-item:hover{
-    color: #256686;
-    background-color: transparent;
-}
-
-.carro{
-    width: 100%;
-    background-image: url(imagens/etezEstrutura.png);
-    background-repeat: no-repeat;
-    color: white;
-}
-
-h1{
-    text-align: center;
-}
-
-.carro h3, .carro p, .carro h2{
-    padding: 19%;
-    padding-bottom: 0.5%;
-    text-align: center;
-    font-size: 16px;
-    color: #f79120;
-    font-weight: bolder;
-}
-
-hr{
-    color: #f79120;
-    border: solid 2px #f79120;
-    width: 2%;
-}
-
-.carro p, .carro h2{
-    padding: 0.5%;
-    padding-bottom: 1%;
-    font-size: 20px;
-    color: rgb(233, 233, 233);
-}
-
-.vestib{
-    border: solid 2px #f79120;
-    background-color: transparent;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 0.4% 2%;
-    color: #f79120;
-    display: block;
-    margin: auto;
-}
-.vestib:hover{
-    background-color: #f79120;
-    color:#1a252b
-}
-
-.RECENTES h3{
-    color: black;
-    text-align: left;
-}
-.RECENTES{
-    margin: auto;
-    padding: 2% 8%;
-}
-.RECENTES h4{
-    color: black;
-    text-align: left;
-    padding: 2% 0%;
-}
-.RECENTES h4:hover{
-    color: #dd8520;
-    cursor: pointer;
-}
-.container1{
-    justify-content: space-around;
-}
-
-.recente{
-    width: 45%;
-    margin: 2%;
-}
-.artig{
-    margin: 2%;
-    width: 25%;
-}
-.artig h6{
-    padding-top: 10px;
-}
-.artig a{
-    display: block;
-    color: black;
-    text-decoration-style: none;
-    padding-bottom: 2%;
-}
-button:hover{
-    cursor: pointer;
-}
-
-footer{
     display: flex;
-    justify-content: space-around;
-    padding: 1% 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.escolhaPrinc{
+    margin: auto;
+    width: 20%;
+    background: rgb(102,15,49);
+    background: linear-gradient(152deg, rgba(102,15,49,1) 0%, rgba(156,23,59,1) 50%, rgba(102,15,49,1) 100%);
+    border: solid 2px #9c173b;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: rgb(247, 147, 32);
+    padding: 12%;
+}
+
+h2{
+    color: #0ce6f2;
+    margin-bottom: 2%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.btn{
+    font-weight: bold;
+    background-color: #9c173b;
+    color: #0098db;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: #ff0546;
+    color: #0ce6f2;
+}
+
+#cliente{
+    padding-left: 14.8%;
+    padding-right: 14.8%;
+}
+
+
+.cadClient{
+    color: white;
+    margin: auto;
+    display: none;
+    width: 90%;
+}
+form{
+    background: rgb(102,15,49);
+    background: linear-gradient(152deg, rgba(102,15,49,1) 0%, rgba(156,23,59,1) 50%, rgba(102,15,49,1) 100%);
+    margin: auto;
+    width: 45%;
+    border: solid 2px gray;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.linhas{
+    width: 40%;
+
+}
+input{
+    padding: 1%;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #103166;
+    display: block;
+}
+
+.subc{
+    margin: 0;
+    width: 100%;
+}
+
+.cadFuncionario{
+    width: 90%;
+    display: none;
+    color: white;
+    margin: auto;
 }
